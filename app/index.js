@@ -1,12 +1,11 @@
-var React = require('react')
+import React from 'react'
+import Home from './components/Home'
 var ReactDOM = require('react-dom')
 require('./index.css')
 
 class App extends React.Component {
   render () {
-    return (
-      <div>Hello React 16 via webpack 4 and @babel 7 and babel-loader 8</div>
-    )
+    return ( <div><Home /></div> )
   }
 }
 
